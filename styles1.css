@@ -1,0 +1,9 @@
+
+table,th,td {
+    border: 1px solid #adff2f;
+    width: 500px;
+    text-align: center;
+}
+.first{
+    background-color: #add8e6;
+}
