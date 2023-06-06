@@ -1,6 +1,7 @@
 
 /* the styles for the Table */
 table{
+    border: 1px solid #0000ff
     background-color: #00ffff;
 
 }
