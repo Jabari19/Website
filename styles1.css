@@ -1,6 +1,27 @@
 
-table,th,td {
-    border: 1px solid #adff2f;
-    width: 500px;
-    text-align: center;
+/* the styles for the Table */
+table{
+    background-color: #00ffff;
+
 }
+thead, tfoot{
+    border-bottom: solid #931420 2px;
+    border-top: solid #931420 2px;
+}
+.line{
+    border-bottom: solid #931420 2px;
+}
+th, td{
+    text-align: left;
+    padding: .3em .7em;
+}
+
+.cost{
+    text-align: right;
+}
+.right{
+    text-align: right;
+    font-weight: bold;
+}
+
+
