@@ -63,11 +63,53 @@ td {
     text-align: right;
     font-weight: bold;
 }
-@media(max-width: 768px) {
+/*Images styles*/
 
-    table, .content-table
+.container_1{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.container_1 .btn{
+    display:block;
+    color: #fff;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 40px;
+    padding: 10px 5px;
+}
+.box1{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+
+}
+
+.box1 img{
+    display: block;
+    width: 100%;
+    border-radius: 5px ;
+}
+.box1 :hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+/*Media*/
+@media screen and (max-width: 780px) {
+    .container_1{
+        width: 100%;
+        float:none;
+    
+    }
+    @media screen and (max-width: 620px) {
+    .container .content-table 
     {
         float:none;
-        text-align: center;
         width: 100%;
     }
+}
+}

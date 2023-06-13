@@ -38,17 +38,17 @@ ul {
 
 }
 
-/**header*/
+/**header and menus items*/
 header {
-    background: #00a0a0 ;
+    background: #00a0a0;
     color: #ffffff;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     min-height: 70px;
     border-bottom: #ff7300 3px solid;
-    header 
-        
-    
+    border-bottom: #09ff00 2px solid;
+    border-bottom: #aeff00 4px solid;
+
 
 }
 
@@ -56,7 +56,7 @@ header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*menu*/
@@ -188,12 +188,12 @@ ul#services li {
     #boxes.box,
     article#main-col,
     aside#sidebar {
-        float:none;
+        float: none;
         text-align: center;
         width: 100%;
     }
 
-    
+
 
     #destiny h1 {
         margin-top: 40px;
@@ -212,10 +212,10 @@ ul#services li {
         margin: 5px;
     }
 
-       /* the styles for the elements */
+    /* the styles for the elements */
     * {
         margin: 0;
-        padding:0;
+        padding: 0;
     }
 
     html {
@@ -237,7 +237,7 @@ ul#services li {
     }
 
     /* the styles for the header */
-  
+
     header h2 {
         font-size: 175%;
         color: #800000;
@@ -438,76 +438,76 @@ ul#services li {
         background-color: black;
         text-align: center;
     }
-    * the styles for the form */
-fieldset {
 
-    margin-bottom: 0.5em;
-    padding: .5em 1em;
-}
+    * the styles for the form */ fieldset {
 
-legend {
-    color: #000000;
-    font-weight: bold;
-    font-size: 85%;
-    margin-bottom: .5em;
-}
+        margin-bottom: 0.5em;
+        padding: .5em 1em;
+    }
 
-label {
-    float: left;
-    width: 12em;
-    text-align: right;
-}
+    legend {
+        color: #000000;
+        font-weight: bold;
+        font-size: 85%;
+        margin-bottom: .5em;
+    }
 
-label,
-input,
-select {
-    font-size: 90%;
-}
+    label {
+        float: left;
+        width: 12em;
+        text-align: right;
+    }
 
-input,
-select {
-    width: 15em;
-    margin-left: .5em;
-    margin-bottom: .5em;
-}
+    label,
+    input,
+    select {
+        font-size: 90%;
+    }
 
-input:required,
-input[required] {
-    border: 2px solid #800000;
-}
+    input,
+    select {
+        width: 15em;
+        margin-left: .5em;
+        margin-bottom: .5em;
+    }
 
-input:valid {
-    border: 1px solid black;
-}
+    input:required,
+    input[required] {
+        border: 2px solid #800000;
+    }
 
-input:invalid {
-    border: 2px solid #800000;
-    box-shadow: none;
-}
+    input:valid {
+        border: 1px solid black;
+    }
 
-#payment-method label {
-    float: none;
-}
+    input:invalid {
+        border: 2px solid #800000;
+        box-shadow: none;
+    }
 
-#payment-method input {
-    width: auto;
-    margin-left: 3em;
-}
+    #payment-method label {
+        float: none;
+    }
 
-#exp-month {
-    width: 7em;
-}
+    #payment-method input {
+        width: auto;
+        margin-left: 3em;
+    }
 
-#exp-year {
-    width: 5em;
-}
+    #exp-month {
+        width: 7em;
+    }
 
-br {
-    clear: both;
-}
+    #exp-year {
+        width: 5em;
+    }
 
-#buttons input {
-    width: 10em;
-}
+    br {
+        clear: both;
+    }
+
+    #buttons input {
+        width: 10em;
+    }
 
 }
