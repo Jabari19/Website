@@ -60,6 +60,7 @@ header a {
 }
 
 /*menu*/
+
 header li {
     float: left;
     display: inline;
@@ -130,6 +131,42 @@ header a:hover {
     height: 25px;
     width: 250px;
 }
+/*images style*/
+.container_0 {
+    width: 100%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.container_0 .btn {
+    display: block;
+    color: #fff;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 40px;
+    padding: 10px 5px;
+}
+
+.box0 {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+
+}
+
+.box0 img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box0 :hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
 
 /***boxes*/
 #boxes {
@@ -192,6 +229,7 @@ ul#services li {
         text-align: center;
         width: 100%;
     }
+
 
 
 
