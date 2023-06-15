@@ -115,5 +115,17 @@ td {
             float: none;
             width: 100%;
         }
+        .container_1{
+            max-width: 350px;
+        }
+        .container_1{
+            max-width: 600px
+        }
+        .container_1{
+            max-width: 850;
+        }
+        .content-table{
+            max-width: fit-content ;
+        }
     }
 }
